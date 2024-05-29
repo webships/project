@@ -29,8 +29,8 @@
   "require": {
     "composer/installers": "~2",
     "oomphinc/composer-installers-extender": "~2",
-    "drupal/core-composer-scaffold": "~10",
-    "webship/webships": "1.0.x-dev"
+    "drupal/core-composer-scaffold": "^11",
+    "webship/webships": "2.0.x-dev"
   },
   "config": {
     "bin-dir": "bin/",
