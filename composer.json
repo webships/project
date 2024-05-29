@@ -30,7 +30,6 @@
     "composer/installers": "~2",
     "oomphinc/composer-installers-extender": "~2",
     "drupal/core-composer-scaffold": "~10",
-    "symplify/vendor-patches": "~11",
     "webship/webships": "1.0.x-dev"
   },
   "config": {
@@ -84,6 +83,7 @@
     "composer-exit-on-patch-failure": true,
     "patchLevel": {
       "drupal/core": "-p2"
-    }
+    },
+    "patches": { }
   }
 }
